@@ -1,0 +1,25 @@
+{
+	"name": "Facebook Download",
+	"version": "1.0",
+	 "manifest_version": 2,
+	"description": "Rough Draft Extension", 
+	"background": {
+		"persistent": true,
+		"scripts": ["video.js", "fb.js"]
+	},
+	"browser_action": {
+		"default_icon": "icon.png"
+	},
+	"permissions": [
+		"background",
+		"downloads",
+		"tabs",
+		"webNavigation",
+		"browsingData",
+		"activeTab",
+		"declarativeContent",
+		"storage",
+		"activeTab",
+		"<all_urls>"
+	]
+}
