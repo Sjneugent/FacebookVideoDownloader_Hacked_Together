@@ -241,7 +241,7 @@ function Work()
 		for(var i = 0; i < VideoURL.length; i++)
 		{
 			console.debug("Attempting to download:", VideoURL[i]);
-			downloadFile(VideoURL[i]);
+			window.downloadFile(VideoURL[i]);
 		}
 		
 		alert("Initiated download of " + VideoURL.length + " video(s). Check your browser's download manager.");
