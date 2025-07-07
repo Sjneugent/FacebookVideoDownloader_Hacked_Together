@@ -1,14 +1,15 @@
 {
-	"name": "Facebook Download",
-	"version": "1.0",
+	"name": "Facebook Video Downloader",
+	"version": "2.0",
 	 "manifest_version": 2,
-	"description": "Rough Draft Extension", 
+	"description": "Download videos from Facebook - Updated for modern HTML5 video support", 
 	"background": {
 		"persistent": true,
 		"scripts": ["video.js", "fb.js"]
 	},
 	"browser_action": {
-		"default_icon": "icon.png"
+		"default_icon": "icon.png",
+		"default_title": "Download Facebook Videos"
 	},
 	"permissions": [
 		"background",
@@ -19,7 +20,6 @@
 		"activeTab",
 		"declarativeContent",
 		"storage",
-		"activeTab",
 		"<all_urls>"
 	]
 }
